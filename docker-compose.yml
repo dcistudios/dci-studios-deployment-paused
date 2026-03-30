@@ -1,0 +1,7 @@
+services:
+  dci-status:
+    build: .
+    container_name: dci_studios_paused
+    ports:
+      - "80:80"
+    restart: always
